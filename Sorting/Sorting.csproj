@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BubbleSort\BubbleSort.csproj" />
+    <ProjectReference Include="..\MergeSort\MergeSort.csproj" />
+    <ProjectReference Include="..\QuickSort\QuickSort.csproj" />
+  </ItemGroup>
+
 </Project>
